@@ -1,0 +1,1 @@
+An inventory management system
