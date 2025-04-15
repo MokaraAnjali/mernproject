@@ -1,0 +1,151 @@
+/* Overall page setup */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4caf50, #2196f3, #9c27b0); /* Green to Blue to Purple gradient */
+  }
+  
+  /* Header section */
+  .dashboard-header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Logout button */
+  .dashboard-button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Main content */
+  .dashboard-main {
+    flex-grow: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Dashboard header */
+  .dashboard-main h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* Error message */
+  .error-msg {
+    color: #f44336;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Stock details header */
+  .dashboard-main h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Products table container */
+  .products-table-container {
+    width: 100%; /* Make the container take the full width */
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 100%; /* Remove the max-width restriction */
+    overflow-x: auto; /* Add horizontal scrolling if needed */
+  }
+  
+  .products-table-container h4 {
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  td {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Buttons in the table */
+  .dashboard-table-button, .dashboard-table-link {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-table-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .dashboard-table-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .dashboard-table-link {
+    background-color: #2196f3;
+    color: white;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .dashboard-table-link:hover {
+    background-color: #1976d2;
+  }
+  
+  /* No products message */
+  .no-products {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
