@@ -1,0 +1,87 @@
+/* addproducts.css */
+
+/* Main container for the Add Product page */
+.add-product-container {
+    width: 90%; /* Make container take up more space, adjust as needed */
+    max-width: 1000px; /* Increase the maximum width */
+    margin: 50px auto;
+    padding: 40px; /* More padding inside the form */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and heading */
+  .add-product-container h2 {
+    text-align: center;
+    font-size: 2.5rem; /* Increased font size */
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-bottom: 40px; /* Increased margin below heading */
+  }
+  
+  /* Form styling */
+  .add-product-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input and select fields */
+  .add-product-container input,
+  .add-product-container select,
+  .add-product-container button {
+    margin-bottom: 30px; /* Increased space between form elements */
+    padding: 14px; /* Slightly larger padding */
+    font-size: 18px; /* Increased font size */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Focus styling for input and select fields */
+  .add-product-container input:focus,
+  .add-product-container select:focus,
+  .add-product-container button:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  /* Text inputs and number inputs to take full width */
+  .add-product-container input[type="text"],
+  .add-product-container input[type="number"],
+  .add-product-container select {
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styling */
+  .add-product-container button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 16px; /* Larger padding */
+    font-size: 20px; /* Increased font size */
+  }
+  
+  .add-product-container button:hover {
+    background-color: #218838;
+  }
+  
+  .add-product-container button:disabled {
+    background-color: #ccc;
+  }
+  
+  /* Toast notification styling */
+  .toast-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* Extra padding at the top of form for better alignment */
+  .add-product-container form input,
+  .add-product-container form select {
+    margin-top: 20px; /* Increased margin-top */
+  }
+  
